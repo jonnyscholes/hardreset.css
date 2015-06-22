@@ -1,0 +1,51 @@
+body {
+	font-size: 100.01%;
+}
+
+h1, h2, h3, h4, h5, h6, div, address, footer, header, section, 
+hgroup, article, nav, main, summary, content, dl, dt, dl, dd, 
+figure, figcaption, hr, ul, ol, li, p, pre, a, abbr, b, bdi, 
+bdo, br, cite, code, data, time, dfn, em, i, kbd, mark, q, blockquote, 
+rp, ruby, rt, rtc, rb, ruby, rb, rt, ruby, s, del, samp, small, span, 
+strong, sub, sup, time, u, var, wbr, area, map, img, map, area, track, 
+audio, source, iframe, object, param, source, picture, audio, video, 
+embed, noembed, canvas, noscript, ins, caption, col, colgroup, table, 
+thead, tbody, tfoot, tr, td, form, button, label, input, keygen, legend, 
+fieldset, meter, optgroup, select, option, datalist, output, progress, 
+textarea, details, dialog, menu, menuitem, *:focus, *:before, *:after, 
+*:hover {
+	display: block;
+	overflow: visible;
+	content: none;
+	margin: 0;
+	padding: 0;
+	position: static;
+
+	border: 0 none;
+	outline: 0 none;
+	color: black;
+	background: none;
+	background-color: transparent;
+
+	font-size: 1em;
+	line-height: 1em;
+	vertical-align: baseline;
+	font-style: normal;
+	font-weight: normal;
+	font-family: serif;
+	text-align: left;
+	text-decoration: none;
+	text-transform: none;
+	
+	list-style: none;
+	quotes: none;
+
+	border-collapse: collapse;
+	border-spacing: 0;
+	cursor: default;
+}
+
+button::-moz-focus-inner {
+	border: 0 none;
+	padding: 0;
+}
