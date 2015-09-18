@@ -20,6 +20,7 @@ textarea, details, dialog, menu, menuitem, *:focus, *:before, *:after,
 	margin: 0;
 	padding: 0;
 	position: static;
+	box-sizing: border-box;
 
 	border: 0 none;
 	outline: 0 none;
